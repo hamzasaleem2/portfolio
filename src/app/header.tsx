@@ -19,7 +19,7 @@ export default function Header() {
               <AvatarFallback>HS</AvatarFallback>
             </Avatar>
             <BubbleText text={"hamzasaleem"} />
-            <BubbleText text={"code engineer"} />
+            <BubbleText text={"freelance code engineer"} />
           </div>
         </Link>
         <div className="flex items-center space-x-2">

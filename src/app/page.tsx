@@ -11,7 +11,7 @@ export default function Home() {
         <div className="container flex flex-col space-y-2">
           <article className="pt-6">
             <div className="space-y-1">
-              <h2 className="font-mono text-lg tracking-tighter">plots</h2>
+              <h2 className="font-mono text-lg tracking-tighter">projects</h2>
             </div>
             <ul className="space-y-4 py-4">
               <li className="flex flex-col space-y-1.5 !no-underline">
@@ -72,7 +72,7 @@ export default function Home() {
               </li>
             </ul>
           </article>
-        </div>
+          </div>
       </main>
     </div>
   );
