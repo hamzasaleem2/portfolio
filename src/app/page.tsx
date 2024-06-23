@@ -17,6 +17,23 @@ export default function Home() {
               <li className="flex flex-col space-y-1.5 !no-underline">
                 <Link
                   className="flex flex-col space-y-1.5 !no-underline"
+                  href="https://s3oosh.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div>
+                    <Label className="cursor-pointer font-medium underline underline-offset-4 ">
+                      S3oosh
+                    </Label>
+                  </div>
+                  <Label className="text-muted-foreground">
+                    S3oosh allows users to upload multiple files at once to S3 Buckets
+                  </Label>
+                </Link>
+              </li>
+              <li className="flex flex-col space-y-1.5 !no-underline">
+                <Link
+                  className="flex flex-col space-y-1.5 !no-underline"
                   href="#"
                   target="_blank"
                   rel="noreferrer"
@@ -29,6 +46,23 @@ export default function Home() {
                   <Label className="text-muted-foreground">
                     this application helps generate a detailed reviews report
                     for any business profile on google.
+                  </Label>
+                </Link>
+              </li>
+              <li className="flex flex-col space-y-1.5 !no-underline">
+                <Link
+                  className="flex flex-col space-y-1.5 !no-underline"
+                  href="https://github.com/hamzasaleem2/chatgpt95"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div>
+                    <Label className="cursor-pointer font-medium underline underline-offset-4 ">
+                      ChatGPT95
+                    </Label>
+                  </div>
+                  <Label className="text-muted-foreground">
+                    A chatbot that uses GPT-4o to generate responses to user queries, with windows 95 styling.
                   </Label>
                 </Link>
               </li>
@@ -72,7 +106,7 @@ export default function Home() {
               </li>
             </ul>
           </article>
-          </div>
+        </div>
       </main>
     </div>
   );
